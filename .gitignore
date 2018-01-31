@@ -105,3 +105,18 @@ modules.xml
 
 
 # End of https://www.gitignore.io/api/scala,intellij+all,intellij+iml
+
+# generated files
+/target
+/out
+/project/target
+/project/boot
+/project/project
+/experiments
+/models
+# LDC data
+/data
+# IntelliJ cruft
+.idea
+*.iml
+.history
