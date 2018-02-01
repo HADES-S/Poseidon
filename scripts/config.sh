@@ -13,9 +13,9 @@ export WNHOME="${JAMR_HOME}/tools/WordNet-3.0"
 export SCALA="${JAMR_HOME}/tools/scala-2.11.2/bin/scala"
 export SMATCH="${JAMR_HOME}/scripts/smatch_v1_0/smatch_modified.py"
 
-export TRAIN_FILE="${JAMR_HOME}/data/LDC2015E86_DEFT_Phase_2_AMR_Annotation_R1/data/amrs/split/training/training.txt"
-export DEV_FILE="${JAMR_HOME}/data/LDC2015E86_DEFT_Phase_2_AMR_Annotation_R1/data/amrs/split/dev/dev.txt"
-export TEST_FILE="${JAMR_HOME}/data/LDC2015E86_DEFT_Phase_2_AMR_Annotation_R1/data/amrs/split/test/test.txt"
+export TRAIN_FILE="${JAMR_HOME}/data/training/training.txt"
+export DEV_FILE="${JAMR_HOME}/data/dev/dev.txt"
+export TEST_FILE="${JAMR_HOME}/data/test/test.txt"
 
 export MODEL_DIR="${JAMR_HOME}/models/Little_Prince"  # ideally keep this the same as the config_SOMETHING.sh
 
