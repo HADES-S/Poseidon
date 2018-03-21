@@ -1,6 +1,3 @@
-import AssemblyKeys._
-
-assemblySettings
 
 name := "Poseidon"
 
@@ -20,7 +17,7 @@ libraryDependencies ++= Seq(
 
 //scalaSource in compile := (baseDirectory in compile).value  / "src"
 
-scalaSource in Compile := baseDirectory.value / "src"
+scalaSource in Compile := baseDirectory.value / "src" / "main" / "scala"
 
 // Running JAMR via sbt:
 
