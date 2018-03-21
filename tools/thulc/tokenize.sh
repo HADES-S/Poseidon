@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ueo pipefail
 
-cd ~/syh/test/Poseidon/tools/thulc
+cd ~/syh/Poseidon/tools/thulc/
 
 for AMR in "${TRAIN_FILE}" "${DEV_FILE}" "${TEST_FILE}"
 do
