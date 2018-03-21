@@ -5,7 +5,7 @@ version := "0.1-SNAPSHOT"
 
 organization := "edu.cmu.lti.nlp"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.10.3"
 
 libraryDependencies ++= Seq(
   "com.jsuereth" %% "scala-arm" % "1.3",
